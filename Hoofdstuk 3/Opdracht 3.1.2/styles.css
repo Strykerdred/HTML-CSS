@@ -1,0 +1,15 @@
+p{
+    color: green;
+}
+
+div {
+    border: 1px dash black;
+}
+
+p .rood {
+    color: red;
+}
+
+#blauw {
+    color: blue;
+}
