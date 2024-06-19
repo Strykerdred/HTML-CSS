@@ -1,3 +1,40 @@
-p{
-    color: green;
+.logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.logo-link {
+    display: inline-block; /* Ensures the link respects width and height properties */
+    width: 150px; /* Adjust width as per your requirement */
+    height: 50px; /* Adjust height as per your requirement */
+    margin: 10px auto; /* Center the logo link */
+    text-align: center; /* Center the content horizontally */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.shortcut a {
+    display: flex;
+    text-decoration:none;
+    justify-content: space-around;
+    padding: 10px 0;
+    border: 1.5px solid #ccc;
+    border-radius: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: #e37242;
+}
+
+.shortcut a:visited{
+    color: #e37242;
+}
+
+body{
+    background-color: darkslategray;
+    color: white;
 }

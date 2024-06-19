@@ -1,0 +1,45 @@
+.logo-link {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.logo {
+    max-width: 40%;
+    height: auto;
+    vertical-align: middle;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.shortcut {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shortcut a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #e37242;
+    transition: background-color 0.3s ease; /*vond ik online zag er mooi uit */
+}
+
+.shortcut a:hover {
+    background-color: #f0f0f0;
+}
+
+body {
+    background-color: darkslategray;
+    color: white;
+}
